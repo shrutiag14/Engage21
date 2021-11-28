@@ -4,4 +4,4 @@
 
 Sign-In / Sign-Up Page
 
-![This is first](./screenshots/Screenshot(2).png)
+![This is first](./screenshots/Screenshot (2).png)
