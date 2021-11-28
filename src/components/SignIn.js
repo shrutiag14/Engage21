@@ -86,26 +86,9 @@ class SignIn extends React.Component {
 									/>
 									<i className="far fs-eye-slash"></i>
 								</div>
-								{/* <div className="social-container cta">
-									<div>
-                                        <label
-											for="mycheckboxId"
-											class="checkbox"
-										>
-											<input
-												className="checkbox__in"
-												type="checkbox"
-												name="myCheckboxName"
-												id="myCheckboxId"
-											/>
-											<div className="checkbox__box"></div>
-											<div>Remember me</div>
-											</label>
-									</div>
-								</div> */}
                                <button class="btn-1">Sign In</button>
 							   <div class=" sp sepration-1"></div>
-							   <p>Don't have an account? <a href="./signup">Sign Up</a></p>
+							   <p>Don't have an account? <a href="./SignUp">Sign Up</a></p>
 							</form>
 						</div>
 					</div>
