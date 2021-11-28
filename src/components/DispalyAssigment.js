@@ -108,7 +108,7 @@ console.log(assignmentFiles)
                 <div className="announcement-title">Assignment Details : {description}</div>
                 <div className="announcement-title">Due Date : {lastDate}</div>
 
-                <a href={assignmentFiles} target="blank" color="black">To see the assignment</a>
+                <a href={assignmentFiles} target="blank" color="black">Submit Assignment</a>
 
 
                 <label htmlFor="file" className="title">&#8686; Choose a file </label>
