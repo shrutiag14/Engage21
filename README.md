@@ -1,10 +1,10 @@
 # Engage21
 
-### Sign in/ sig up page
+### Sign in/ sign up page
 - User already registered and try to sigup with the same email id then it will shown an error
 - Password and Confirm password doesn't match ,  it will shown an error
 
-### verficiation mail
+### Verficiation mail
 - User successfully signed up, it will sennd a verification mail to the respective mail which need to be verified.
 
 ### HomePage
