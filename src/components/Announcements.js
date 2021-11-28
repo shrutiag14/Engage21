@@ -128,7 +128,7 @@ const Announcements = () => {
 				<div className="new-announcement-div">
 					<ReactModal isOpen={showModal} contentLabel="Add Announcement" ariaHideApp={false} className="new-announcement-modal">
 						<form className="new-announcement-form" onSubmit={addAnnouncement}>
-							<div>Announcement Title</div>
+							<div>Subject</div>
 							<textarea type="text" 
 							className="new-announcement-title"
 							onChange={(e) => setannounce(e.target.value)}
