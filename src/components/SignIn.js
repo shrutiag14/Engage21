@@ -88,7 +88,7 @@ class SignIn extends React.Component {
 								</div>
                                <button class="btn-1">Sign In</button>
 							   <div class=" sp sepration-1"></div>
-							   <p>Don't have an account? <a href="./SignUp">Sign Up</a></p>
+							   <p>Don't have an account? <a href="SignUp">Sign Up</a></p>
 							</form>
 						</div>
 					</div>
