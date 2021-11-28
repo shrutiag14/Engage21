@@ -1,0 +1,15 @@
+#all-subjects-page {
+	height: 100%;
+	display:flex;
+}
+
+.all-subjects {
+	/* position: absolute; */
+	grid-column: center-start / center-end;
+
+	display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(19rem, 1fr));
+	width: 100%;
+	margin:20px;
+	grid-gap: 2rem;
+}

@@ -1,0 +1,70 @@
+.announcement {
+	clear: both;
+	width: 100%;
+	border-bottom: 1px solid #0060D7;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+
+.announcement-title {
+	color: black;
+	font-family: 'Nunito';
+	font-size: 20px;
+	text-decoration: underline;
+	margin: 5px 0px;
+	padding: 5px 10px;
+	word-wrap: break-word;
+}
+.title{
+	color: black;
+	font-size: 20px;
+	
+}
+a:not([href]):not([tabindex]) {
+    color:black; 
+	font-family: 'Nunito';
+	font-size: 22px;
+	text-decoration: underline;
+	margin: 5px 0px;
+	padding: 5px 10px;
+	background-color: lightblue;
+     
+}
+.announcement-description {
+	margin: 5px;
+	min-height: 75px;
+	padding: 5px;
+	font-family: 'Nunito';
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+
+
+.update-announcement-button, .close-modal-button {
+	cursor: pointer;
+	margin: 15px;
+	width: 25%;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	background-color: white;
+	font-family: 'Nunito';
+	transition-duration: 0.7s;
+}
+
+.close-modal-button {
+	color: coral;
+	border: 1px solid black;
+}
+.button{
+	border: 1px solid black;
+	margin: 5px;
+	left: 30px;
+	font-size: 15px;
+}
+.close-modal-button:hover {
+	background-color: #DC0000;
+	color: black;
+}

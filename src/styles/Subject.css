@@ -1,0 +1,35 @@
+.subject {
+	/* border: 1px solid red; */
+	color:black;
+	width: 300px;
+	height: 200px;
+	font-family: 'Nunito';
+	padding: 5px;
+	margin: 7px;
+	float: left;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px black;
+}
+
+.subject {
+	height: 95%;
+	background-color:rgb(255, 254, 254);
+    transition: 1s ;
+     border-radius: 5px;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 15%), 2px 2px 7px rgb(0 0 0 / 14%),
+    3px 3px 8px rgb(0 0 0 / 13%), 4px 4px 9px rgb(0 0 0 / 12%);
+	
+}
+.subject:hover{
+	transform: scale(1.1);
+}
+
+.subject-code, .subject-name {
+	font-size: 20px;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+.instructor-name {
+	padding: 15px 5px;
+}

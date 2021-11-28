@@ -1,0 +1,53 @@
+{
+  "name": "myclass",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "concurrently": "^3.6.1",
+    "electron-is-dev": "^2.0.0",
+    "firebase": "^9.0.0",
+    "history": "^4.10.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "rc-progress": "^2.5.2",
+    "react": "^17.0.2",
+    "react-datepicker": "^1.8.0",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.10.1",
+    "react-notification": "^6.8.4",
+    "react-particles-js": "^2.7.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^4.0.3",
+    "react-spinners": "^0.11.0",
+    "uuidv4": "^6.2.12",
+    "wait-on": "^6.0.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+.classroom {
+	height: calc(100vh - 1px);
+	position: relative;
+	font-family: 'Nunito';
+	text-align: center;
+	background-color: #080808;
+	background-repeat: no-repeat;
+	color: white;
+	display:flex;
+	overflow: hidden;
+}
+.classroom::before{
+	bottom:0;
+	left:0;
+	position:absolute;
+	right:0;
+	top:0;
+	background: #000;
+	content:'';
+	opacity: .4;
+
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.classroom-login-signin {
+	position: absolute;
+	top:50%;
+	left:30%;
+    margin-left: 25px;
+}
+
+.classroom-login-signup {
+	position: absolute;
+	top:50%;
+	left:15%;
+}
+
+.btn {
+	text-transform: uppercase;
+	padding:1rem 3rem;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all .2s;
+	position:relative;
+	font-size: 1.6rem;
+	border: none;
+	cursor:pointer;
+	animation: moveInBottom .5s ease-out .75s;
+	animation-fill-mode: backwards;
+	background-color: #fff;
+	color:#777;
+}
+.btn-2{
+	text-transform: uppercase;
+	padding:0.5rem 1rem;
+	display: inline-block;
+	border-radius: 10rem;
+	transition: all .2s;
+	position:relative;
+	font-size: 1.4rem;
+	border: none;
+	cursor:pointer;
+	margin:5px;
+	background-color: #fff;
+	color:#777;
+}
+.btn-2:hover{
+	background-color: #fff;
+}
+.f{
+	margin-bottom: 10px;
+}
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(3rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+.btn:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover::after{
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity:0;
+}
+
+.btn::after {
+     content: "";
+	 display: inline-block;
+	 height:100%;
+	 width:100%;
+	 border-radius: 10rem;
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 z-index: -1;
+	 transition: all .4s;
+	 background-color: #fff;
+}
+

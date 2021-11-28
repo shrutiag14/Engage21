@@ -1,0 +1,125 @@
+/*#sign-in-page {
+	height: 732px;
+}*/
+.container{
+	    margin: 5rem auto;
+	    max-width: 400px;
+		background-color: #fff;
+		border:none;
+		border-radius: 8px;
+		box-shadow: 0px 2px 30px 8px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+		width: 26rem;
+		height: 21.5rem;
+		padding: 5px 24px;
+		
+}
+
+.social-container {
+	margin: 10px 0;
+}
+
+.form-input,
+.form-input[type="email"]
+{
+	outline: 0;
+	background: #fff;
+	font-size: 1.2rem;
+	border: 0.2px solid #bec0c2;
+	padding: 12px 15px;
+	margin: 10px 20px;
+    width: 88%;
+}
+
+.form-container .btn-1{
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 1.25rem;
+	padding: 12px 15px;
+	margin: 8px 20px;
+	width:88%;
+	cursor: pointer;
+	background-color: #007fed;
+	border: #007fed;
+}
+
+.btn-1:hover{
+	background-color: #2091f5;
+}
+
+.form-container h1{
+	font-size: 1.25rem;
+	line-height: 1.4;
+	text-align: center;
+	font-family: inherit;
+	font-weight: 700;
+}
+
+.sp{
+	display:flex;
+	align-items: center;
+	width: 100%;
+	margin-top: 1rem;
+	flex: 0 0 auto;
+	text-transform: uppercase;
+	font-family:inherit;
+	font-weight: 700;
+	font-size: 0.8rem;
+	line-height: 1.2;
+}
+
+.form-container p{
+	text-align:center;
+	display: block;
+	font-size: 13px;
+}
+
+.a{
+	text-decoration: underline;
+	font-size: 13px;
+	line-height: 1.2;
+	color: #1c95bd;
+	cursor:pointer;
+	padding: 0;
+	font-weight: 400;
+}
+
+.checkbox {
+	display:inline-flex;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+.checkbox__in{
+	display:none;
+}
+
+.checkbox__box{
+	cursor:pointer;
+	width: 1.2em;
+	height: 1.2em;
+	border:1px solid #ccc;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0.5rem;
+	flex-shrink:0;
+	transition: background 0.15s, border-color 0.15s;
+}
+
+.checkbox__box::after{
+    content: '\2714';
+	color:#fff;
+	transform:scale(0);
+	transition: transform 0.15s;
+}
+
+.checkbox__in:checked+ .checkbox__box{
+	background: #007fed;
+	background-color: #007fed;  
+}
+
+.checkbox__in:checked + .checkbox__box::after{
+	transform: scale(1);
+}

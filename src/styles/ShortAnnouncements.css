@@ -1,0 +1,53 @@
+.short-announcements {
+	float: left;
+	width: 330px;
+	font-family: 'Nunito';
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+	margin: 30px;
+	padding: 7px;
+}
+
+.short-announcements-title {
+	height: 35px;
+	width: 95%;
+	line-height: 35px;
+	padding: 5px;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.short-announcement {
+	min-height: 30px;
+	margin: 4px;
+	padding: 5px;
+	border-bottom: 1px solid black;
+	word-wrap: break-word;
+	line-height: 30px;
+}
+
+.more-announcement-button {
+	height: 30px;
+	width: 100%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.more-announcement-button {
+	color: black;
+	text-decoration: none;
+	font-style: bold;
+}
+.button{
+	color:red;
+	border: 1px solid red;
+	text-decoration: none;
+	
+}
+.more-announcement-button:hover {
+	background-color: red;
+	color:white;
+}

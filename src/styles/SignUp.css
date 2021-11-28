@@ -1,0 +1,51 @@
+.container-1{
+	margin: 5rem auto;
+	max-width: 400px;
+	background-color: #fff;
+	border:none;
+	border-radius: 8px;
+	box-shadow: 0px 2px 30px 8px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+	width: 26rem;
+	/* height:39.5rem; */
+	padding: 5px 24px;
+}
+
+.social-container {
+	margin: 10px 0;
+}
+
+.form-container h1{
+	font-size: 1.25rem;
+	line-height: 1.4;
+	text-align: center;
+	font-family: inherit;
+	font-weight: 700;
+}
+
+.form-input,
+.form-input[type="email"]
+{
+	outline: 0;
+	background: #fff;
+	font-size: 1.2rem;
+	border: 0.2px solid #bec0c2;
+	padding: 12px 15px;
+	margin: 10px 20px;
+    width: 88%;
+}
+
+.form-container p{
+	text-align:center;
+	display: block;
+	font-size: 13px;
+}
+
+.radio{
+	margin-right:5px;
+	margin-top:10px;
+}
+
+.radio-1{
+	margin-left:5px;
+	margin-top:10px;
+}
