@@ -146,7 +146,7 @@ class SignUp extends React.Component {
 						</div>
 						{student}
 						<button class="btn-1">Sign Up</button>
-						<p>Already have an account? <a href="./signin">Sign In</a></p>
+						<p>Already have an account? <a href="./SignIn">Sign In</a></p>
 						
 					</form>
 					</div>
