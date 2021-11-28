@@ -57,7 +57,7 @@ const DisplayDetails = ({ description, assignmentFiles, title }) => {
 
                             <div className="announcement-title">Submitted Date : {data.date}</div>
 
-                            <a href={data.assignmentFiles} target="blank" className="announcement-title">To see the assigment</a>
+                            <a href={data.assignmentFiles} target="blank" className="announcement-title">Submit Assignment</a>
 
 
 
