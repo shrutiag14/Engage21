@@ -11,12 +11,18 @@ import 'firebase/compat/firestore';
 
 const app= firebase.initializeApp(
 { 
-	apiKey: "AIzaSyBgYEI9LUP9bFraZ5o9-oWioN6CfR7ZCMg",
-    authDomain: "submission-tool.firebaseapp.com", 
-    projectId: "submission-tool",
-    storageBucket: "submission-tool.appspot.com",
-    messagingSenderId: "543103706014",
-    appId: "1:543103706014:web:9e2da15c014fc547ff6c8f"
+// 	apiKey: "AIzaSyBgYEI9LUP9bFraZ5o9-oWioN6CfR7ZCMg",
+//     authDomain: "submission-tool.firebaseapp.com", 
+//     projectId: "submission-tool",
+//     storageBucket: "submission-tool.appspot.com",
+//     messagingSenderId: "543103706014",
+//     appId: "1:543103706014:web:9e2da15c014fc547ff6c8f"
+	apiKey: "AIzaSyDgvuGDi8Oag9V1lDiPMadvukHT5JvpvmY",
+  authDomain: "classroom-hub-e3f60.firebaseapp.com",
+  projectId: "classroom-hub-e3f60",
+  storageBucket: "classroom-hub-e3f60.appspot.com",
+  messagingSenderId: "685217606480",
+  appId: "1:685217606480:web:8429777406b65f1cff5a55"
     
 })
 
